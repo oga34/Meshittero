@@ -19,15 +19,27 @@
   box-sizing: border-box;
 }
 
-p.top-text {
+
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+p, ol, ul, td {
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px;
-    margin: 33px;
-}
+    margin: 33px
 
-h1,h2 {
-    font-family: verdana, arial, helvetica, sans-serif;
 }
 
 .strong {
@@ -37,6 +49,13 @@ h1,h2 {
 .top {
     background-color: #fff;
     color: #333;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+
+.top-text {
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px;
@@ -55,6 +74,49 @@ body {
 .new-title{
     margin: 16.185px 0px;
 }
-.field {
+.field, .action {
     margin-bottom: 10px;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    padding-bottom: 5px;
+}
+
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.index-title {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.edit, .back {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+form {
+    display: block;
+    margin-top: 15px;
+}
+
+label {
+    display: block;
+}
+
+.text-success {
+    color: green;
 }
